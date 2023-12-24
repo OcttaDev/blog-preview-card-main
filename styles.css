@@ -34,6 +34,16 @@ main{
     height: 100%;
     width: 100%;
 }
+@media screen and (max-width: 750px) {
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding: 40px;
+    }
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -47,6 +57,9 @@ main{
     border-radius: 20px;
     box-shadow: 7px 7px 0px var(--black);
 }
+ 
+
+
 .container .image-container{
     width: 100%;
 }
